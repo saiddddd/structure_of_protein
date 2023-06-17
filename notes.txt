@@ -1,0 +1,16 @@
+Pastikan Anda telah menginstal Anaconda atau Miniconda. Jika Anda belum menginstalnya, Anda dapat mengunduh dan menginstal Anaconda dari situs resmi Anaconda: https://www.anaconda.com/products/individual
+
+Buka Anaconda Prompt (atau Terminal) dan buat lingkungan virtual baru dengan perintah berikut:
+
+
+1. conda create -n mypymol python=3.8
+Ganti "mypymol" dengan nama lingkungan virtual yang Anda inginkan.
+
+2. aktifkan lingkungan virtual yang baru dibuat dengan perintah:
+conda activate mypymol
+
+3. instal PyMOL menggunakan perintah berikut:
+conda install -c schrodinger pymol
+Perintah ini akan menginstal versi PyMOL yang dikelola oleh Schrödinger.
+
+Setelah instalasi selesai, Anda dapat menjalankan skrip test.py
